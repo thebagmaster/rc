@@ -135,6 +135,8 @@ alias prc="cp ~/.bashrc ~/.vimrc ~/rc;cd ~/rc;git add .;git commit -m update;git
 
 export MC="/raid/servers/mc/ftb-presents-skyfactory-3"
 export SRV="/raid/servers/"
+export WEB="/raid/servers/web"
+export TPD="/raid/servers/tpd"
 
 alias startradar='screen -dmS radarr mono --debug /opt/Radarr/Radarr.exe' 
 alias startsonar='screen -dmS sonarr mono --debug /opt/NzbDrone/NzbDrone.exe' 
