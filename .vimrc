@@ -113,9 +113,11 @@ set mouse+=a
 syntax on
 set autoindent
 filetype plugin indent on
-set tabstop=4
-set shiftwidth=4
+set noexpandtab
+set tabstop=2
+set shiftwidth=2
 set smartindent
+set softtabstop=-1
 command WQ wq
 command Wq wq
 command W w
