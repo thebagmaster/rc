@@ -120,7 +120,4 @@ command WQ wq
 command Wq wq
 command W w
 command Q q
-if has("autocmd")
-  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
-endif
 
