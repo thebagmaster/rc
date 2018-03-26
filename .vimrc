@@ -109,7 +109,7 @@ if has("multi_byte")
   set fileencodings=ucs-bom,utf-8,latin1
 endif
 
-set mouse=
+set mouse+=a
 syntax on
 set autoindent
 filetype plugin indent on

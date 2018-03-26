@@ -131,10 +131,9 @@ export NVM_DIR="$HOME/.nvm"
 alias brc="vim ~/.bashrc"
 alias vrc="vim ~/.vimrc"
 alias src="source ~/.bashrc"
+alias prc="cp ~/.bashrc ~/.vimrc ~/rc;cd ~/rc;git add .;git commit -m update;git push origin master;cd -;"
 
-export MC="/raid/servers/ozone"
-export WEB="/raid/servers/web"
-export TPD="/raid/servers/tpd"
+export MC="/raid/servers/mc/ftb-presents-skyfactory-3"
 export SRV="/raid/servers/"
 
 alias startradar='screen -dmS radarr mono --debug /opt/Radarr/Radarr.exe' 
