@@ -133,6 +133,8 @@ alias vrc="vim ~/.vimrc"
 alias src="source ~/.bashrc"
 alias prc="cp ~/.bashrc ~/.vimrc ~/rc;cd ~/rc;git add .;git commit -m update;git push origin master;cd -;"
 
+alias pstore="scp -v -C -i ~/vamp -r $TPD/public/* ubuntu@twitchplaysdark.com:~/tpd/public"
+
 export MC="/raid/servers/mc/ftb-presents-skyfactory-3"
 export SRV="/raid/servers/"
 export WEB="/raid/servers/web"
@@ -169,4 +171,4 @@ alias untargz="tar -xvzf"
 
 
 alias sshsher="ssh -i /raid/documents/desktop/documents/sher.priv ubuntu@ec2-18-220-63-132.us-east-2.compute.amazonaws.com"
-alias sshvamp="ssh -i /raid/documents/desktop/documents/vamp.priv ubuntu@vamperage.chickenkiller.com"
+alias sshvamp="ssh -i ~/vamp ubuntu@twitchplaysdark.com"
